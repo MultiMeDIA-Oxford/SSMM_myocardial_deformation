@@ -16,7 +16,7 @@ This repository will implement a principal component analysis (PCA)-based statis
   <img alt="Registering the tagged images into point cloud space." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/3720320_b1s_pc_space_quiver_xy.png" width="45%">
 </p>
 
-**Optical flow.** We calculate the optical flow between each frame using the Farnebäck algorithm [1]. The red arrows represent the direction and magnitude (x6) of the optical flow for the pixel at the base of each arrow at each frame.
+**Optical flow (Eulerian Field).** We calculate the optical flow between each frame using the Farnebäck algorithm [1]. The red arrows represent the direction and magnitude (x6) of the optical flow for the pixel at the base of each arrow at each frame. The Eulerian field can be interpreted as the flow through the pixel at that time point.
 
 <p align="center">
   <img alt="Optical flow for basal slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/optical_flow/b1s_flow_diag.gif" width="30%">
@@ -24,6 +24,16 @@ This repository will implement a principal component analysis (PCA)-based statis
   <img alt="Optical flow for midcavity slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/optical_flow/b2s_flow_diag.gif" width="30%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Optical flow for apical slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/optical_flow/b3s_flow_diag.gif" width="30%">
+</p>
+
+**Myocardial material point tracking.** We apply the optical flow fields to the fitted meshes at ED via advection, giving points tracking the position of the myocardial material at each frame. We show an example for 3 slices for one subject, with additional examples available [here](https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/tree/main/figures/lagrangian_motion_meshes/1286305).
+
+<p align="center">
+  <img alt="Lagrangian motion for basal slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/lagrangian_motion_meshes/1286305/b1s_mesh_motion.gif" width="30%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Lagrangian motion for midcavity slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/lagrangian_motion_meshes/1286305/b2s_mesh_motion.gif" width="30%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Lagrangian motion for apical slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/lagrangian_motion_meshes/1286305/b3s_mesh_motion.gif" width="30%">
 </p>
 
 ### Myocardial Tracking Validation
