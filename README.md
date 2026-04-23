@@ -1,4 +1,4 @@
-# Statistical Shape and Motion Model (SSMM) for Myocardial Function
+# Statistical Shape and Motion Model for Myocardial Deformation from Tagged Magnetic Resonance Imaging
 
 ## Overview
 
