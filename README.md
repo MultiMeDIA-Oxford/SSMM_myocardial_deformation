@@ -36,6 +36,18 @@ This repository will implement a principal component analysis (PCA)-based statis
   <img alt="Lagrangian motion for apical slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/lagrangian_motion_meshes/1286305/b3s_mesh_motion.gif" width="30%">
 </p>
 
+**Myocardial mesh.** We transform the tracked material points back into the coordinate system of the cine-derived point clouds. We show 3 examples with the cine-derived biventricular reconstruction as a reference.
+
+<p align="center">
+  <img alt="Myocardial point cloud motion for subject 1169306." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/myocardial_point_cloud/1169306_combined_mesh_motion_pc_space.gif" width="23%">
+&nbsp;
+  <img alt="Myocardial point cloud motion for subject 1409794." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/myocardial_point_cloud/1409794_combined_mesh_motion_pc_space.gif" width="23%">
+&nbsp;
+  <img alt="Myocardial point cloud motion for subject 1459356." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/myocardial_point_cloud/1459356_combined_mesh_motion_pc_space.gif" width="23%">
+&nbsp;
+  <img alt="Myocardial point cloud motion for subject 4069206." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/myocardial_point_cloud/4069206_combined_mesh_motion_pc_space.gif" width="23%">
+</p>
+
 ### Myocardial Tracking Validation
 We manually tracked the tags for all 3 slices in 6 randomly selected subjects. We plot both the manual tags and the nearest tag from our preprocessing method on the tagged plane over a full cycle. Below is an example of 3 slices for 1 subject, with the remaining plots available [here](https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/tree/main/figures/manual_tracking_validation).
 
