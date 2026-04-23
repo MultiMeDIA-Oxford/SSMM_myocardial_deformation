@@ -9,10 +9,8 @@ This repository will implement a principal component analysis (PCA)-based statis
 ### Myocardial Point Cloud Preprocessing
 
 **Registering the tagged images into point cloud space.** We use the point clouds representing the anatomy derived from cine MRI to estimate a segmentation on the tagged MRI images. This is achieved by registering the tagged images into the point cloud space, and selecting points in the cloud close to the image plane.
-
-                                                                                                          |                                                                                                                                                                                            
-:-----------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------:
-![](https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/3720320_b1s_pc_space_quiver.png)  |  ![](https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/3720320_b1s_pc_space_quiver_xy.png)
+                                                                                             
+![](https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/3720320_b1s_pc_space_quiver.png) ![](https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/3720320_b1s_pc_space_quiver_xy.png)
 
 
 
