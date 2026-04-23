@@ -39,13 +39,15 @@ This repository will implement a principal component analysis (PCA)-based statis
 **Myocardial mesh.** We transform the tracked material points back into the coordinate system of the cine-derived point clouds. We show 3 examples with the cine-derived biventricular reconstruction as a reference.
 
 <p align="center">
-  <img alt="Myocardial point cloud motion for subject 1169306." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/myocardial_point_cloud/1169306_combined_mesh_motion_pc_space.gif" width="23%">
-&nbsp;
-  <img alt="Myocardial point cloud motion for subject 1409794." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/myocardial_point_cloud/1409794_combined_mesh_motion_pc_space.gif" width="23%">
-&nbsp;
-  <img alt="Myocardial point cloud motion for subject 1459356." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/myocardial_point_cloud/1459356_combined_mesh_motion_pc_space.gif" width="23%">
-&nbsp;
-  <img alt="Myocardial point cloud motion for subject 4069206." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/myocardial_point_cloud/4069206_combined_mesh_motion_pc_space.gif" width="23%">
+  <img alt="Myocardial point cloud motion for subject 1169306." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/myocardial_point_cloud/1169306_combined_mesh_motion_pc_space.gif" width="45%">
+&nbsp; &nbsp;
+  <img alt="Myocardial point cloud motion for subject 1409794." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/myocardial_point_cloud/1409794_combined_mesh_motion_pc_space.gif" width="45%">
+</p>
+
+<p align="center">
+  <img alt="Myocardial point cloud motion for subject 1459356." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/myocardial_point_cloud/1459356_combined_mesh_motion_pc_space.gif" width="45%">
+&nbsp; &nbsp;
+  <img alt="Myocardial point cloud motion for subject 4069206." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/myocardial_point_cloud/4069206_combined_mesh_motion_pc_space.gif" width="45%">
 </p>
 
 ### Myocardial Tracking Validation
