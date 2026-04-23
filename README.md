@@ -19,11 +19,11 @@ This repository will implement a principal component analysis (PCA)-based statis
 **Optical flow.** We calculate the optical flow between each frame using the Farnebäck algorithm [1]. The red arrows represent the direction and magnitude (x6) of the optical flow for the pixel at the base of each arrow at each frame.
 
 <p align="center">
-  <img alt="Optical flow for basal slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/optical__flow/b1s_flow_diag.gif" width="30%">
+  <img alt="Optical flow for basal slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/optical_flow/b1s_flow_diag.gif" width="30%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Optical flow for midcavity slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/optical__flow/b2s_flow_diag.gif" width="30%">
+  <img alt="Optical flow for midcavity slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/optical_flow/b2s_flow_diag.gif" width="30%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Optical flow for apical slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/optical__flow/b3s_flow_diag.gif" width="30%">
+  <img alt="Optical flow for apical slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/optical_flow/b3s_flow_diag.gif" width="30%">
 </p>
 
 ### Myocardial Tracking Validation
