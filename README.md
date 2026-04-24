@@ -61,6 +61,20 @@ We manually tracked the tags for all 3 slices in 6 randomly selected subjects. W
   <img alt="Manual vs automatic tags for apical slice." src="https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/blob/main/figures/manual_tracking_validation/1286305/b3s_tracking.gif" width="30%">
 </p>
 
+### Latent Traversal
+
+**Shape modes.** We vary each shape mode from -2 to 2 standard deviations (SD) to visualise the effect of each shape mode on the output shape. We show the two modes presented in the paper below, and include visualisations of al the modes [here](https://github.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/tree/main/figures/shape_modes).
+
+<p align="center">
+  <img alt="Shape mode component 8"
+       src="https://raw.githubusercontent.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/main/figures/shape_modes/component_8.gif"
+       width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Shape mode component 28"
+       src="https://raw.githubusercontent.com/MultiMeDIA-Oxford/SSMM_myocardial_deformation/main/figures/shape_modes/component_28.gif"
+       width="45%">
+</p>
+
 # References
 
 [1] G. Farnebäck, “Two-frame motion estimation based on polynomial expansion,” in Image Analysis, Lecture Notes in Computer Science, vol. 2749, 2003, pp. 363–370.
