@@ -4,6 +4,15 @@
 
 This repository will implement a principal component analysis (PCA)-based statistical shape and motion model (SSMM) for analysing myocardial deformation from tagged MRI data. The framework will capture high-dimensional spatial and temporal variation in myocardial geometry across the cardiac cycle and will be applied to downstream tasks such as myocardial infarction (MI) prediction. It will leverage tagged MRI-derived motion fields to model myocardial material motion beyond anatomical shape changes, enabling interpretable analysis of regional cardiac function and supporting applications in precision cardiology.
 
+```bibtex
+@unpublished{seale_myocardial_shape_motion,
+  author  = {Seale, Thalia Eleni and Grau, Vicente and Banerjee, Abhirup},
+  title   = {Statistical Shape and Motion Model for Myocardial Deformation from Tagged Magnetic Resonance Imaging},
+  note    = {Manuscript in preparation / under review},
+  year    = {2026}
+}
+```
+
 ## Supplementary Figures
 
 ### Myocardial Point Cloud Preprocessing
